@@ -1,0 +1,403 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.5.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".claude/settings.json",
+        "hash": "4174402289047638020"
+      },
+      {
+        "file": ".codex/config.toml",
+        "hash": "834784286173436075"
+      },
+      {
+        "file": ".cursor/agents/ci-monitor-subagent.md",
+        "hash": "5224403714544255385"
+      },
+      {
+        "file": ".cursor/commands/monitor-ci.md",
+        "hash": "9694566310897122482"
+      },
+      {
+        "file": ".cursor/skills/link-workspace-packages/SKILL.md",
+        "hash": "6638592300654417978"
+      },
+      {
+        "file": ".cursor/skills/monitor-ci/SKILL.md",
+        "hash": "2234589037131029925"
+      },
+      {
+        "file": ".cursor/skills/nx-generate/SKILL.md",
+        "hash": "16801959272346088877"
+      },
+      {
+        "file": ".cursor/skills/nx-plugins/SKILL.md",
+        "hash": "4717624081372438208"
+      },
+      {
+        "file": ".cursor/skills/nx-run-tasks/SKILL.md",
+        "hash": "10723914446406921246"
+      },
+      {
+        "file": ".cursor/skills/nx-workspace/SKILL.md",
+        "hash": "14445122489349943565"
+      },
+      {
+        "file": ".cursor/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "10577828056523124002"
+      },
+      {
+        "file": ".gemini/commands/monitor-ci.toml",
+        "hash": "15225935642832410447"
+      },
+      {
+        "file": ".gemini/settings.json",
+        "hash": "14337936512237811016"
+      },
+      {
+        "file": ".gemini/skills/link-workspace-packages/skill.md",
+        "hash": "6638592300654417978"
+      },
+      {
+        "file": ".gemini/skills/monitor-ci/skill.md",
+        "hash": "2234589037131029925"
+      },
+      {
+        "file": ".gemini/skills/nx-generate/skill.md",
+        "hash": "16801959272346088877"
+      },
+      {
+        "file": ".gemini/skills/nx-plugins/skill.md",
+        "hash": "4717624081372438208"
+      },
+      {
+        "file": ".gemini/skills/nx-run-tasks/skill.md",
+        "hash": "10723914446406921246"
+      },
+      {
+        "file": ".gemini/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "10577828056523124002"
+      },
+      {
+        "file": ".gemini/skills/nx-workspace/skill.md",
+        "hash": "14445122489349943565"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "18382632013542775506"
+      },
+      {
+        "file": ".github/agents/ci-monitor-subagent.agent.md",
+        "hash": "1901879307221929694"
+      },
+      {
+        "file": ".github/prompts/monitor-ci.prompt.md",
+        "hash": "12842457007415284005"
+      },
+      {
+        "file": ".github/skills/link-workspace-packages/SKILL.md",
+        "hash": "6638592300654417978"
+      },
+      {
+        "file": ".github/skills/monitor-ci/SKILL.md",
+        "hash": "2234589037131029925"
+      },
+      {
+        "file": ".github/skills/nx-generate/SKILL.md",
+        "hash": "16801959272346088877"
+      },
+      {
+        "file": ".github/skills/nx-plugins/SKILL.md",
+        "hash": "4717624081372438208"
+      },
+      {
+        "file": ".github/skills/nx-run-tasks/SKILL.md",
+        "hash": "10723914446406921246"
+      },
+      {
+        "file": ".github/skills/nx-workspace/SKILL.md",
+        "hash": "14445122489349943565"
+      },
+      {
+        "file": ".github/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "10577828056523124002"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "13310162846883450580"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3460644926182445372"
+      },
+      {
+        "file": ".opencode/agents/ci-monitor-subagent.md",
+        "hash": "15661903080095047278"
+      },
+      {
+        "file": ".opencode/commands/monitor-ci.md",
+        "hash": "4114071631709178513"
+      },
+      {
+        "file": ".opencode/skills/link-workspace-packages/SKILL.md",
+        "hash": "6638592300654417978"
+      },
+      {
+        "file": ".opencode/skills/monitor-ci/SKILL.md",
+        "hash": "2234589037131029925"
+      },
+      {
+        "file": ".opencode/skills/nx-generate/SKILL.md",
+        "hash": "16801959272346088877"
+      },
+      {
+        "file": ".opencode/skills/nx-plugins/SKILL.md",
+        "hash": "4717624081372438208"
+      },
+      {
+        "file": ".opencode/skills/nx-run-tasks/SKILL.md",
+        "hash": "10723914446406921246"
+      },
+      {
+        "file": ".opencode/skills/nx-workspace/SKILL.md",
+        "hash": "14445122489349943565"
+      },
+      {
+        "file": ".opencode/skills/nx-workspace/references/AFFECTED.md",
+        "hash": "10577828056523124002"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4134969992917317260"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "18234343250335250711"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "18234343250335250711"
+      },
+      {
+        "file": "README.md",
+        "hash": "6511781055616226350"
+      },
+      {
+        "file": "apps/Clip/README.md",
+        "hash": "3239731635098447248"
+      },
+      {
+        "file": "apps/Clip/build.gradle.kts",
+        "hash": "17642280793250760893"
+      },
+      {
+        "file": "apps/Clip/composeApp/build.gradle.kts",
+        "hash": "3161815026387821798"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/AndroidManifest.xml",
+        "hash": "8850522816154300164"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/kotlin/sv/org/clip/MainActivity.kt",
+        "hash": "11058386396696752609"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/kotlin/sv/org/clip/Platform.android.kt",
+        "hash": "1957017336704067607"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml",
+        "hash": "5114720425116956186"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml",
+        "hash": "9401291929643364493"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml",
+        "hash": "13845772098883678394"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "hash": "13845772098883678394"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.png",
+        "hash": "17219070487114476148"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.png",
+        "hash": "1856801589286366752"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.png",
+        "hash": "18266021684440209842"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.png",
+        "hash": "13212340716046545729"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher.png",
+        "hash": "13864683969690450263"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher_round.png",
+        "hash": "12151938341752239749"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png",
+        "hash": "315520917481114398"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.png",
+        "hash": "13697034631114487911"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.png",
+        "hash": "6696796036745817157"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.png",
+        "hash": "17275705055753566133"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/androidMain/res/values/strings.xml",
+        "hash": "17628383500509876416"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml",
+        "hash": "11661370380451051441"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/App.kt",
+        "hash": "18323568982701423918"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/Greeting.kt",
+        "hash": "8128834709276373471"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/Platform.kt",
+        "hash": "2338433820766790955"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/commonTest/kotlin/sv/org/clip/ComposeAppCommonTest.kt",
+        "hash": "17494535267238217128"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/jvmMain/kotlin/sv/org/clip/Platform.jvm.kt",
+        "hash": "8502739901265833992"
+      },
+      {
+        "file": "apps/Clip/composeApp/src/jvmMain/kotlin/sv/org/clip/main.kt",
+        "hash": "2293944025000420178"
+      },
+      {
+        "file": "apps/Clip/gradle.properties",
+        "hash": "3456434141148808394"
+      },
+      {
+        "file": "apps/Clip/gradle/libs.versions.toml",
+        "hash": "509893941685700271"
+      },
+      {
+        "file": "apps/Clip/gradle/wrapper/gradle-wrapper.jar",
+        "hash": "5961704579857758315"
+      },
+      {
+        "file": "apps/Clip/gradle/wrapper/gradle-wrapper.properties",
+        "hash": "926483970941658266"
+      },
+      {
+        "file": "build.gradle.kts",
+        "hash": "1331229540247994622"
+      },
+      {
+        "file": "gradle.properties",
+        "hash": "15451536312017266004"
+      },
+      {
+        "file": "gradle/libs.versions.toml",
+        "hash": "5893472395058046713"
+      },
+      {
+        "file": "gradle/wrapper/gradle-wrapper.jar",
+        "hash": "454489746521271422"
+      },
+      {
+        "file": "gradle/wrapper/gradle-wrapper.properties",
+        "hash": "5454378894883809943"
+      },
+      {
+        "file": "gradlew",
+        "hash": "18228996197658660565"
+      },
+      {
+        "file": "gradlew.bat",
+        "hash": "8232202015247706579"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11886133469968121503"
+      },
+      {
+        "file": "opencode.json",
+        "hash": "8969569099983068167"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6512423010427057565"
+      },
+      {
+        "file": "package.json",
+        "hash": "13074737711398133031"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "settings.gradle.kts",
+        "hash": "16556746093058897127"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "501499671418974141"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
+      }
+    ],
+    "projectFileMap": {}
+  },
+  "externalNodesHash": "11979125790982622851"
+}
