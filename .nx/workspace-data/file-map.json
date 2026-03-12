@@ -146,7 +146,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "3460644926182445372"
+        "hash": "5598584554216592303"
       },
       {
         "file": ".opencode/agents/ci-monitor-subagent.md",
@@ -214,7 +214,7 @@
       },
       {
         "file": "apps/Clip/build.gradle.kts",
-        "hash": "17642280793250760893"
+        "hash": "10840357937051162546"
       },
       {
         "file": "apps/Clip/composeApp/build.gradle.kts",
@@ -346,7 +346,7 @@
       },
       {
         "file": "gradle/libs.versions.toml",
-        "hash": "5893472395058046713"
+        "hash": "5708986969476353783"
       },
       {
         "file": "gradle/wrapper/gradle-wrapper.jar",
@@ -386,7 +386,7 @@
       },
       {
         "file": "settings.gradle.kts",
-        "hash": "16556746093058897127"
+        "hash": "5093218442213503859"
       },
       {
         "file": "tsconfig.base.json",

@@ -6,11 +6,22 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
+pluginManagement {
+    repositories {
+        google()            // <--- Esta es la que falta y es CRITICA para AGP
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
 rootProject.name = "clip-monorepo"
+
+
 
 
 // Enable the feature to manage versions in one place
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
@@ -18,5 +29,8 @@ dependencyResolutionManagement {
 }
 
 // Register your KMP/CMP project modules
-include(":apps:Clip:composeApp")
+include(":composeApp")
 //include(":apps:Clip:shared")
+
+project(":composeApp").projectDir = file("apps/Clip/composeApp")
+//project(":apps:Clip:shared").projectDir = file("apps/Clip/shared")
