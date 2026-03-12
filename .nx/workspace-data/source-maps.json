@@ -1,1 +1,924 @@
-{}
+{
+  ".": {
+    "root": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "name": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.1": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.2": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.3": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.4": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.5": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.6": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.7": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.8": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.9": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.10": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.help.11": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Build Setup": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Build Setup.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Build Setup.1": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Build Setup.2": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Reporting": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Reporting.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.targetGroups.Reporting.1": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.artifactTransforms.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.buildEnvironment.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencies.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.dependencyInsight.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.help.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.init.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.javaToolchains.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.kotlinDslAccessorsReport.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.dependsOn": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.inputs": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.options.includeDependsOnTasks": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectGraph.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.outputs": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.nxProjectReport.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.outgoingVariants.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.prepareKotlinBuildScriptModel.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.projects.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.properties.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.resolvableConfigurations.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.tasks.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.outputs": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.updateDaemonJvm.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.cache": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.outputs": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.executor": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.options": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.options.taskName": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata.description": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata.technologies": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata.technologies.0": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata.help": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ],
+    "targets.wrapper.metadata.help.command": [
+      "build.gradle.kts",
+      "@nx/gradle"
+    ]
+  }
+}

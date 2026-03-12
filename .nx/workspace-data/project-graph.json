@@ -1,5 +1,395 @@
 {
-  "nodes": {},
+  "nodes": {
+    "clip-monorepo": {
+      "name": "clip-monorepo",
+      "type": "app",
+      "data": {
+        "root": ".",
+        "name": "clip-monorepo",
+        "metadata": {
+          "targetGroups": {
+            "help": [
+              "artifactTransforms",
+              "buildEnvironment",
+              "dependencies",
+              "dependencyInsight",
+              "help",
+              "javaToolchains",
+              "kotlinDslAccessorsReport",
+              "outgoingVariants",
+              "projects",
+              "properties",
+              "resolvableConfigurations",
+              "tasks"
+            ],
+            "Build Setup": [
+              "init",
+              "updateDaemonJvm",
+              "wrapper"
+            ],
+            "Reporting": [
+              "nxProjectGraph",
+              "nxProjectReport"
+            ]
+          },
+          "technologies": [
+            "gradle"
+          ]
+        },
+        "targets": {
+          "artifactTransforms": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the Artifact Transforms that can be executed in root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :artifactTransforms"
+              }
+            },
+            "options": {
+              "taskName": ":artifactTransforms"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "buildEnvironment": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays all buildscript dependencies declared in root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :buildEnvironment"
+              }
+            },
+            "options": {
+              "taskName": ":buildEnvironment"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "dependencies": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays all dependencies declared in root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :dependencies"
+              }
+            },
+            "options": {
+              "taskName": ":dependencies"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "dependencyInsight": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the insight into a specific dependency in root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :dependencyInsight"
+              }
+            },
+            "options": {
+              "taskName": ":dependencyInsight"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "help": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays a help message.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :help"
+              }
+            },
+            "options": {
+              "taskName": ":help"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "init": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Initializes a new Gradle build.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :init"
+              }
+            },
+            "options": {
+              "taskName": ":init"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "javaToolchains": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the detected java toolchains.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :javaToolchains"
+              }
+            },
+            "options": {
+              "taskName": ":javaToolchains"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "kotlinDslAccessorsReport": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Prints the Kotlin code for accessing the currently available project extensions.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :kotlinDslAccessorsReport"
+              }
+            },
+            "options": {
+              "taskName": ":kotlinDslAccessorsReport"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "nxProjectGraph": {
+            "cache": true,
+            "dependsOn": [
+              "clip-monorepo:nxProjectReport"
+            ],
+            "inputs": [
+              {
+                "dependentTasksOutputFiles": "build/nx/clip-monorepo.json"
+              }
+            ],
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Create Nx project graph for clip-monorepo",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :nxProjectGraph"
+              }
+            },
+            "options": {
+              "taskName": ":nxProjectGraph",
+              "includeDependsOnTasks": [
+                ":nxProjectReport"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "nxProjectReport": {
+            "cache": true,
+            "outputs": [
+              "{projectRoot}/build/nx/clip-monorepo.json"
+            ],
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Create Nx project report for clip-monorepo",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :nxProjectReport"
+              }
+            },
+            "options": {
+              "taskName": ":nxProjectReport"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "outgoingVariants": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the outgoing variants of root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :outgoingVariants"
+              }
+            },
+            "options": {
+              "taskName": ":outgoingVariants"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "prepareKotlinBuildScriptModel": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Run .prepareKotlinBuildScriptModel",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :prepareKotlinBuildScriptModel"
+              }
+            },
+            "options": {
+              "taskName": ":prepareKotlinBuildScriptModel"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "projects": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the sub-projects of root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :projects"
+              }
+            },
+            "options": {
+              "taskName": ":projects"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "properties": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the properties of root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :properties"
+              }
+            },
+            "options": {
+              "taskName": ":properties"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "resolvableConfigurations": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the configurations that can be resolved in root project 'clip-monorepo'.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :resolvableConfigurations"
+              }
+            },
+            "options": {
+              "taskName": ":resolvableConfigurations"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "tasks": {
+            "cache": true,
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Displays the tasks runnable from root project 'clip-monorepo' (some of the displayed tasks may belong to subprojects).",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :tasks"
+              }
+            },
+            "options": {
+              "taskName": ":tasks"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "updateDaemonJvm": {
+            "cache": true,
+            "outputs": [
+              "{projectRoot}/gradle/gradle-daemon-jvm.properties"
+            ],
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Generates or updates the Gradle Daemon JVM criteria.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :updateDaemonJvm"
+              }
+            },
+            "options": {
+              "taskName": ":updateDaemonJvm"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "wrapper": {
+            "cache": true,
+            "outputs": [
+              "{projectRoot}/gradlew.bat",
+              "{projectRoot}/gradle/wrapper/gradle-wrapper.jar",
+              "{projectRoot}/gradle/wrapper/gradle-wrapper.properties",
+              "{projectRoot}/gradlew"
+            ],
+            "executor": "@nx/gradle:gradle",
+            "metadata": {
+              "description": "Generates Gradle wrapper files.",
+              "technologies": [
+                "gradle"
+              ],
+              "help": {
+                "command": "./gradlew help --task :wrapper"
+              }
+            },
+            "options": {
+              "taskName": ":wrapper"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    }
+  },
   "externalNodes": {
     "npm:@babel/code-frame": {
       "type": "npm",
@@ -3333,6 +3723,7 @@
     }
   },
   "dependencies": {
+    "clip-monorepo": [],
     "npm:@babel/code-frame": [
       {
         "source": "npm:@babel/code-frame",
@@ -7559,5 +7950,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1773355711391
+  "computedAt": 1773359232736
 }

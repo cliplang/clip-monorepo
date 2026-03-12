@@ -28,9 +28,14 @@ dependencyResolutionManagement {
     }
 }
 
+
 // Register your KMP/CMP project modules
 include(":composeApp")
 //include(":apps:Clip:shared")
 
-project(":composeApp").projectDir = file("apps/Clip/composeApp")
+//project(":composeApp").projectDir = file("apps/Clip/composeApp")
+//project(":composeApp").projectDir = File(rootDir, "apps/Clip/composeApp")
+//project(":composeApp").projectDir = rootProject.file("apps/Clip/composeApp")
+//project(":composeApp").projectDir = File(rootDir, "apps/Clip/composeApp")
+project(":composeApp").projectDir = File(settingsDir, "apps/Clip/composeApp")
 //project(":apps:Clip:shared").projectDir = file("apps/Clip/shared")

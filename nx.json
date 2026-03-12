@@ -12,6 +12,12 @@
   },
   "plugins": [
     {
+      "plugin": "@nx/gradle",
+      "options": {
+        "testTargetName": "test"
+      }
+    },
+    {
       "plugin": "@nx/js/typescript",
       "options": {
         "typecheck": {
