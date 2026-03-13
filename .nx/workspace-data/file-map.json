@@ -28,6 +28,112 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      ":composeApp": [
+        {
+          "file": "apps/clip/composeApp/build.gradle.kts",
+          "hash": "3161815026387821798"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/AndroidManifest.xml",
+          "hash": "8850522816154300164"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/kotlin/sv/org/clip/MainActivity.kt",
+          "hash": "11058386396696752609"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/kotlin/sv/org/clip/Platform.android.kt",
+          "hash": "1957017336704067607"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml",
+          "hash": "5114720425116956186"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml",
+          "hash": "9401291929643364493"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml",
+          "hash": "13845772098883678394"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+          "hash": "13845772098883678394"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.png",
+          "hash": "17219070487114476148"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.png",
+          "hash": "1856801589286366752"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.png",
+          "hash": "18266021684440209842"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.png",
+          "hash": "13212340716046545729"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher.png",
+          "hash": "13864683969690450263"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher_round.png",
+          "hash": "12151938341752239749"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png",
+          "hash": "315520917481114398"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "hash": "13697034631114487911"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.png",
+          "hash": "6696796036745817157"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "hash": "17275705055753566133"
+        },
+        {
+          "file": "apps/clip/composeApp/src/androidMain/res/values/strings.xml",
+          "hash": "7824081686419285549"
+        },
+        {
+          "file": "apps/clip/composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml",
+          "hash": "11661370380451051441"
+        },
+        {
+          "file": "apps/clip/composeApp/src/commonMain/kotlin/sv/org/clip/App.kt",
+          "hash": "18323568982701423918"
+        },
+        {
+          "file": "apps/clip/composeApp/src/commonMain/kotlin/sv/org/clip/Greeting.kt",
+          "hash": "8128834709276373471"
+        },
+        {
+          "file": "apps/clip/composeApp/src/commonMain/kotlin/sv/org/clip/Platform.kt",
+          "hash": "2338433820766790955"
+        },
+        {
+          "file": "apps/clip/composeApp/src/commonTest/kotlin/sv/org/clip/ComposeAppCommonTest.kt",
+          "hash": "17494535267238217128"
+        },
+        {
+          "file": "apps/clip/composeApp/src/jvmMain/kotlin/sv/org/clip/Platform.jvm.kt",
+          "hash": "8502739901265833992"
+        },
+        {
+          "file": "apps/clip/composeApp/src/jvmMain/kotlin/sv/org/clip/main.kt",
+          "hash": "6386555340800760941"
+        }
+      ],
       "clip-monorepo": [
         {
           "file": ".claude/settings.json",
@@ -215,147 +321,46 @@
         },
         {
           "file": "README.md",
-          "hash": "6511781055616226350"
+          "hash": "11269459909770369956"
         },
         {
-          "file": "apps/Clip/README.md",
+          "file": "apps/clip/.gitignore",
+          "hash": "9586537689284425712"
+        },
+        {
+          "file": "apps/clip/README.md",
           "hash": "3239731635098447248"
         },
         {
-          "file": "apps/Clip/build.gradle.kts",
-          "hash": "3244421341483603138"
+          "file": "apps/clip/build.gradle.kts",
+          "hash": "17642280793250760893"
         },
         {
-          "file": "apps/Clip/composeApp/build.gradle.kts",
-          "hash": "16299618292332557495"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/AndroidManifest.xml",
-          "hash": "8850522816154300164"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/kotlin/sv/org/clip/MainActivity.kt",
-          "hash": "11058386396696752609"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/kotlin/sv/org/clip/Platform.android.kt",
-          "hash": "1957017336704067607"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml",
-          "hash": "5114720425116956186"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/drawable/ic_launcher_background.xml",
-          "hash": "9401291929643364493"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml",
-          "hash": "13845772098883678394"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml",
-          "hash": "13845772098883678394"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.png",
-          "hash": "17219070487114476148"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.png",
-          "hash": "1856801589286366752"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.png",
-          "hash": "18266021684440209842"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.png",
-          "hash": "13212340716046545729"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher.png",
-          "hash": "13864683969690450263"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher_round.png",
-          "hash": "12151938341752239749"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png",
-          "hash": "315520917481114398"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.png",
-          "hash": "13697034631114487911"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.png",
-          "hash": "6696796036745817157"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.png",
-          "hash": "17275705055753566133"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/androidMain/res/values/strings.xml",
-          "hash": "17628383500509876416"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml",
-          "hash": "11661370380451051441"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/App.kt",
-          "hash": "18323568982701423918"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/Greeting.kt",
-          "hash": "8128834709276373471"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/commonMain/kotlin/sv/org/clip/Platform.kt",
-          "hash": "2338433820766790955"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/commonTest/kotlin/sv/org/clip/ComposeAppCommonTest.kt",
-          "hash": "17494535267238217128"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/jvmMain/kotlin/sv/org/clip/Platform.jvm.kt",
-          "hash": "8502739901265833992"
-        },
-        {
-          "file": "apps/Clip/composeApp/src/jvmMain/kotlin/sv/org/clip/main.kt",
-          "hash": "2293944025000420178"
-        },
-        {
-          "file": "apps/Clip/gradle.properties",
+          "file": "apps/clip/gradle.properties",
           "hash": "3456434141148808394"
         },
         {
-          "file": "apps/Clip/gradle/libs.versions.toml",
+          "file": "apps/clip/gradle/libs.versions.toml",
           "hash": "509893941685700271"
         },
         {
-          "file": "apps/Clip/gradle/wrapper/gradle-wrapper.jar",
-          "hash": "5961704579857758315"
-        },
-        {
-          "file": "apps/Clip/gradle/wrapper/gradle-wrapper.properties",
-          "hash": "926483970941658266"
+          "file": "build-log.txt",
+          "hash": "18385366045044330877"
         },
         {
           "file": "build.gradle.kts",
-          "hash": "3355445993426953578"
+          "hash": "9571512178773208703",
+          "deps": [
+            ":composeApp"
+          ]
         },
         {
           "file": "gradle.properties",
-          "hash": "15451536312017266004"
+          "hash": "5370437684249305155"
         },
         {
           "file": "gradle/libs.versions.toml",
-          "hash": "3015308588712309487"
+          "hash": "8660086090885790337"
         },
         {
           "file": "gradle/wrapper/gradle-wrapper.jar",
@@ -375,11 +380,15 @@
         },
         {
           "file": "nx.json",
-          "hash": "9570918390654189618"
+          "hash": "3033160479270753697"
         },
         {
           "file": "opencode.json",
           "hash": "8969569099983068167"
+        },
+        {
+          "file": "output.json",
+          "hash": "16596685159263975544"
         },
         {
           "file": "package-lock.json",
@@ -395,7 +404,11 @@
         },
         {
           "file": "settings.gradle.kts",
-          "hash": "6657417702631463041"
+          "hash": "12304883916081250696"
+        },
+        {
+          "file": "structure.txt",
+          "hash": "14561690509979900953"
         },
         {
           "file": "tsconfig.base.json",
@@ -408,5 +421,5 @@
       ]
     }
   },
-  "externalNodesHash": "11979125790982622851"
+  "externalNodesHash": "7901080243171428376"
 }

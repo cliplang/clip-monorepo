@@ -15,7 +15,8 @@
       "plugin": "@nx/gradle",
       "options": {
         "testTargetName": "test"
-      }
+      },
+      "createNodesV2Timeout": 1800000
     },
     {
       "plugin": "@nx/js/typescript",

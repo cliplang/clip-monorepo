@@ -1,0 +1,32 @@
+Starting a Gradle Daemon, 1 busy and 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+Type-safe project accessors is an incubating feature.
+
+> Configure project :apps:clip:composeApp
+w: [33m[1m⚠️ The 'org.jetbrains.kotlin.multiplatform' plugin deprecated compatibility with Android Gradle plugin: 'com.android.application'[0m[0m
+The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with 'com.android.application' starting with Android Gradle Plugin 9.0.0.
+
+Please change the structure of the your project and move the usage of 'com.android.application' into a separate subproject. The new subproject should add a dependency on this KMP subproject.
+
+Read more: https://kotl.in/kmp-project-structure-migration
+[32m[1mSolution:[0m[0m
+[32m[3mPlease change the structure of your project and move the usage of 'com.android.application' into a separate subproject.[0m[0m
+[36mSee [0m[34mhttps://kotl.in/gradle/agp-new-kmp[0m[36m for more details.[0m
+
+No 'hash' property was provided for root project 'clip-monorepo'. Using default hash value: 'default-hash'
+No 'workspaceRoot' property was provided for root project 'clip-monorepo'. Using default hash value: /home/rafae/code/edtech/clip-monorepo
+No 'hash' property was provided for project ':apps:clip'. Using default hash value: 'default-hash'
+No 'workspaceRoot' property was provided for project ':apps:clip'. Using default hash value: /home/rafae/code/edtech/clip-monorepo
+No 'hash' property was provided for project ':apps:clip:composeApp'. Using default hash value: 'default-hash'
+No 'workspaceRoot' property was provided for project ':apps:clip:composeApp'. Using default hash value: /home/rafae/code/edtech/clip-monorepo
+No 'hash' property was provided for project ':apps'. Using default hash value: 'default-hash'
+No 'workspaceRoot' property was provided for project ':apps'. Using default hash value: /home/rafae/code/edtech/clip-monorepo
+
+> Task :apps:clip:composeApp:nxProjectReport
+Still waiting for package manifests to be fetched remotely.
+Checking the license for package Android SDK Build-Tools 35 in /home/rafae/Android/Sdk/licenses
+License for package Android SDK Build-Tools 35 accepted.
+Preparing "Install Android SDK Build-Tools 35 v.35.0.0".
+Warning: Package "Android SDK Build-Tools 35" (build-tools;35.0.0) should be installed in 
+"/home/rafae/Android/Sdk/build-tools/35.0.0" but 
+it already exists.
+Installing in "/home/rafae/Android/Sdk/build-tools/35.0.0-4" instead.

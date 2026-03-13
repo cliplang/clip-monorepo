@@ -1,5 +1,7 @@
 # CLIP — Comprehensive Language Input Platform
 
+tree . -I "node_modules|build|dist|.git|target|.idea|bin|venv" > structure.txt
+
 ## Windows
 Just open the emulator
 cd $env:LOCALAPPDATA\Android\Sdk\emulator
