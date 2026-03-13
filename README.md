@@ -1,5 +1,17 @@
 # CLIP — Comprehensive Language Input Platform
 
+## Windows
+Just open the emulator
+cd $env:LOCALAPPDATA\Android\Sdk\emulator
+.\emulator -list-avds
+.\emulator -avd Medium_Phone_API_36.1
+
+## Wsl
+Open a terminal and run the bridge
+socat TCP-LISTEN:5038,reuseaddr,fork TCP:$(grep nameserver /etc/resolv.conf | awk '{print $2}'):5037
+Open a second terminal and start Android Studio
+
+
 
 
 # New Nx Repository
